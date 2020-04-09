@@ -1,29 +1,23 @@
 {
-  "name": "hot-onion-api",
+  "name": "doctor-portal-api",
   "version": "1.0.0",
   "description": "this api build for hot onion resturent website and this the third assignment programming hero course",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/manik89/hot-onion-backend.git"
-  },
+
   "keywords": [
-    "hot",
-    "onion",
+    "doctor",
+    "clinic",
     "manik",
-    "redOnion",
-    "resturanet"
+    "management",
+    "dashboard"
   ],
   "author": "Manik Roy",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/manik89/hot-onion-backend/issues"
-  },
-  "homepage": "https://github.com/manik89/hot-onion-backend#readme",
+
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
